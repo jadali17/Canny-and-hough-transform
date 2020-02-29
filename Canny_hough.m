@@ -53,7 +53,7 @@ for i=1:numel(idxs) % limit the number of maxima, we only want to find two coin 
                % rad+1 to compansate for the width of the circle stroke
                viscircles([y,x], rad+1, 'Color', 'w');
                text(y,x, num2str(rad), ...
-                    'Color', 'black', 'HorizontalAlignment', 'center');
+                   'Color', 'black', 'HorizontalAlignment', 'center');
                 
            end
        end
